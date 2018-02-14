@@ -1,0 +1,128 @@
+body{
+  background: #f4f4f4;
+}
+section,aside{
+    width:40%;
+    padding:1%;
+    margin:1%;
+}
+section{
+  float: left;
+}
+aside{
+  float: right;
+}
+.teacher img{
+    width:50%;
+    border:1px solid #384248;
+}
+img#photo{
+    width: 28%;
+    margin-bottom: 20px;
+}
+.teacher{
+    background-color: #FDFDFD;
+    text-align: center;
+    width: 45%;
+    line-height: 2.0em;
+}
+.teacher h2{
+    font-family: sans-serif;
+    font-size: 99%;
+
+    color:#384248;
+}
+.teacher p{
+   padding:10px;
+    text-align: justify;
+}
+.teacher p#bio{
+  padding-bottom: 42px;
+}
+
+/* Footer */
+footer#teacher{
+    font-size: 70%;
+    text-align: center;
+    background-color:#619725;
+    height:22px;
+    padding-top:5px;
+    padding-bottom: 44px;
+    clear: both;
+}
+
+
+/* for 1024px */
+@media(min-width:1024px) and (max-width:1360px){
+  .teacher{
+    padding-top: 50px;
+  }
+}
+@media(min-width:769px) and (max-width:1023px){
+  .teacher{
+    padding-top:50px;
+  }
+  section{
+    height:350px;
+  }
+}
+
+/* for 768px */
+@media(min-width:426px) and (max-width:768px){
+  .teacher{
+    padding-top:50px;
+  }
+  header{
+    min-height: 80px;
+  }
+}
+/* for 425px */
+@media(max-width:425px){
+  section, aside{
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  header{
+    min-height: 80px;
+  }
+  .teacher{
+    float: none;
+    display: block;
+    width: 97%;
+    padding-top: 30px;
+ }
+ .teacher h2{
+  font-size: 13px;
+}
+.teacher p{
+  font-size: 13px;
+  line-height: 2.0em;
+}
+ section{
+   height: 370px;
+ }
+
+}
+
+/* for 320px */
+@media(min-width:320px) and (max-width:374px){
+  section{
+    height: 350px;
+  }
+
+  .teacher h2{
+    font-size: 12px;
+  }
+  .teacher p{
+    font-size: 12px;
+    line-height: 2.0em;
+  }
+  header{
+    min-height: 80px;
+  }
+  aside{
+    float: none;
+    display: block;
+  }
+}

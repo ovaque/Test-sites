@@ -1,0 +1,185 @@
+section div{
+  background: #fdfdfd;
+  width:25%;
+  float:left;
+  height:490px;
+  padding-bottom: 20px;
+}
+section h2{
+  margin: 0;
+  display: none;
+}
+section{
+  background: #fff;
+}
+
+section address{
+  background: #fff;
+  width:30%;
+
+}
+img#map{
+  padding: 10px;
+}
+section div p{
+  padding-left: 20px;
+}
+
+section div h3{
+  color: #e8491d;
+  padding-left: 20px;
+}
+img.logos{
+  margin-left: 20px;
+  padding-top: 20px;
+}
+/* Footer */
+footer{
+  clear:both;
+    font-size: 70%;
+    text-align: center;
+    background-color: #619725;
+    height:25px;
+    padding-top:5px;
+    padding-bottom: 42px;
+}
+
+/* for 1024px */
+@media (max-width:1024px){
+  img#map{
+    width:80%;
+  }
+}
+
+/* for 768px */
+@media(max-width:768px){
+  img#map{
+    width:80%;
+  }
+  section div{
+    height:400px;
+  }
+  section div p{
+    font:110%;
+    line-height: 1.6em;
+  }
+}
+
+@media (min-width:426px) and (max-width:767px){
+  section div{
+    display: block;
+    width:50%;
+  }
+  section div{
+    height: 300px;
+  }
+
+  img#map{
+    width:70%;
+  }
+
+}
+
+/* for 425px */
+@media(max-width:425px){
+  section div{
+    display: block;
+    width:100%;
+    text-align: center;
+    height: auto;
+  }
+  section div h3{
+    padding-top: 10px;
+  }
+  img.logos{
+    width:10%;
+  }
+  img#map{
+    margin-top:20px;
+    width:35%;
+  }
+  div.top{
+    height: 130px;
+  }
+  section div p{
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6em;
+  }
+  section{
+    position: relative;
+  }
+
+  .signboard{
+    position: absolute;
+    top:480px;
+    left:43%;
+  }
+}
+
+/* for 375px */
+@media(max-width:375px){
+  section div{
+    display: inline;
+  }
+  section div h3{
+    padding-top: 10px;
+  }
+  img.logos{
+    width:10%;
+  }
+  img#map{
+    width:35%;
+    margin-top: 20px;
+  }
+  div.top{
+    height: 120px;
+  }
+  section div p{
+    font-size: 13px;
+    line-height: 1.6em;
+    text-align: center;
+  }
+  section{
+    position: relative;
+  }
+
+  .signboard{
+    position: absolute;
+    top:450px;
+    left:43%;
+  }
+}
+
+/* for 320px */
+@media(width:320px){
+  section div{
+    display: inline;
+  }
+  section div h3{
+    padding-top: 10px;
+  }
+  img.logos{
+    width:10%;
+  }
+  img#map{
+    width:40%;
+    margin-top: 20px;
+  }
+  div.top{
+    height: 150px;
+  }
+  section div p{
+    font-size: 12px;
+    text-align: center;
+  }
+  section{
+    position: relative;
+  }
+
+  .signboard{
+    position: absolute;
+    top:500px;
+    left:43%;
+  }
+}

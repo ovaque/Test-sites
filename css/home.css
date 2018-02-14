@@ -1,0 +1,426 @@
+body {
+  background-color: #fefefe;
+  font: 15px/1.5 arial, helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header */
+
+header {
+  background: #fff;
+  color: white;
+  min-height: 70px;
+  padding-top: 10px;
+}
+
+header img#logo {
+  margin-left: 5px;
+}
+
+img.fb {
+  float: right;
+  margin-top: -7px;
+}
+
+img.insta {
+  float: right;
+  margin-top: -2px;
+}
+
+/* Nav Bar */
+header nav {
+  float: right;
+  margin-top: -5px;
+  margin-right: 290px;
+}
+header li {
+  list-style: none;
+  display: inline;
+  padding: 0px 20px 0px 20px;
+  color: #1389d3;
+  
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #1389D3  ;
+  font-size:110%;
+}
+
+header nav ul li a:hover {
+  color: #619725;
+  font-weight: bold;
+}
+
+div#above img{
+  width:100%;
+  margin:0;
+  padding:0;
+}
+ div {
+  background: #FFF;
+}
+
+
+ div p {
+  margin: 0;
+  padding: 23px;
+  line-height: 1.8em;
+  font-size: 101%;
+  font-family: sans-serif;
+  text-align: justify;
+  background: #fff;
+}
+
+
+/* Footer */
+footer {
+  clear: both;
+  font-size: 70%;
+  text-align: center;
+  background-color: #619725;
+  height: 20px;
+  padding-top: 5px;
+  padding-bottom: 42px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* For 1024px */
+
+@media(min-width:1024px) and (max-width:1350px) {
+  div#above img {
+    width: 100%;
+    margin:0;
+    padding:0;
+  }
+  header nav{
+    margin-right: 100px;
+    margin-top: -70px;
+  }
+}
+
+
+/* For 768px */
+
+@media(min-width:768px) and (max-width:1023px) {
+  body {
+    font-size: 70%;
+  }
+  header img#logo {
+    width: 180px;
+  }
+  header img.insta {
+    width: 25px;
+    margin-top: -2px;
+  }
+  header nav{
+    display: inline;
+    margin:-50px 100px 0px 50px;
+  }
+  header li{
+    padding:0px 10px 0px 10px;
+  }
+  header img.fb {
+    width: 35px;
+    margin-top: -7px;
+  }
+
+  div#above img{
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+}
+
+
+/* For 425px */
+
+@media(min-width:425px) and (max-width:767px) {
+  body {
+    font-size: 70%;
+  }
+  .burger-nav{
+    display:block;
+    height:40px;
+    width:100%;
+    background:url(../images/burger3.png) no-repeat 98% center;
+    background-color:#619725;
+    cursor: pointer;
+  
+  }
+  header nav ul{
+    overflow: hidden;
+    background:#619725;
+    height:0;
+  }
+  
+  header nav ul.open{
+    height:305px;
+  }
+  
+  header nav ul li{
+    float:none;
+    text-align: center;
+    width:100%;
+    margin:0;
+  
+  }
+  
+  header nav ul li a{
+    color:#fff;
+    padding:8px;
+    border-bottom:1px solid #fff;
+    display: block;
+    margin:0;
+  }
+  
+  header{
+    min-height: 80px;
+  }
+  header img#logo {
+    width: 160px;
+  }
+  header img.insta {
+    width: 25px;
+    margin-top: -2px;
+  }
+  header img.fb {
+    width: 35px;
+    margin-top: -7px;
+  }
+  header nav{
+    float:none;
+    position: static;
+    display: inline;
+    margin:0;
+  }
+   div p {
+    line-height: 2.5em;
+    font-size: 14px;
+  }
+
+  div#above img{
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+}
+
+
+/* for 375px */
+
+@media(min-width:375px) and (max-width:424px) {
+  .burger-nav{
+    display:block;
+    height:40px;
+    width:100%;
+    background:url(../images/burger3.png) no-repeat 98% center;
+    background-color:#619725;
+    cursor: pointer;
+
+  }
+  header nav ul{
+    overflow: hidden;
+    background:#619725;
+    height:0;
+  }
+
+  header nav ul.open{
+    height:275px;
+  }
+
+  header nav ul li{
+    float:none;
+    text-align: center;
+    width:100%;
+    margin:0;
+
+  }
+
+  header nav ul li a{
+    color:#fff;
+    padding:8px;
+    border-bottom:1px solid #fff;
+    display: block;
+    margin:0;
+  }
+
+  body {
+    font-size: 60%;
+  }
+  header img#logo {
+    width: 150px;
+  }
+  header img.insta {
+    width: 21px;
+    margin-top: -2px;
+  }
+  header img.fb {
+    width: 30px;
+    margin-top: -7px;
+  }
+  header nav{
+    float:none;
+    position: static;
+    display: inline;
+    margin:0;
+  }
+   div p {
+    line-height: 2.5em;
+    font-size: 13px;
+  }
+
+  div#above img{
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+}
+
+
+/* for 320px */
+
+@media(min-width:320px) and (max-width:374px) {
+body{
+  font-size: 60%;
+}
+
+.burger-nav{
+  display:block;
+  height:40px;
+  width:100%;
+  background:url(../images/burger3.png) no-repeat 98% center;
+  background-color:#619725;
+  cursor: pointer;
+
+}
+header nav ul{
+  overflow: hidden;
+  background:#619725;
+  height:0;
+}
+
+header nav ul.open{
+  height:275px;
+}
+
+header nav ul li{
+  float:none;
+  text-align: center;
+  width:100%;
+  margin:0;
+
+}
+
+header nav ul li a{
+  color:#fff;
+  padding:8px;
+  border-bottom:1px solid #fff;
+  display: block;
+  margin:0;
+}
+
+header img#logo {
+    width: 140px;
+  }
+  header img.insta {
+    width: 18px;
+    margin-top: -2px;
+  }
+  header img.fb {
+    width: 27px;
+    margin-top: -7px;
+  }
+  header nav{
+    float:none;
+    position: static;
+    display: inline;
+    margin:0;
+  }
+  
+  div p {
+    line-height: 2.5em;
+    font-size: 12px;
+  
+  }
+  div#above img{
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+}
+
+
+/* for below 320px */
+
+@media(max-width:319px) {
+
+  body {
+    font-size: 50%;
+  }
+  .burger-nav{
+    display:block;
+    height:40px;
+    width:100%;
+    background:url(../images/burger3.png) no-repeat 98% center;
+    background-color:#619725;
+    cursor: pointer;
+  
+  }
+  header nav ul{
+    overflow: hidden;
+    background:#619725;
+    height:0;
+  }
+  
+  header nav ul.open{
+    height:275px;
+  }
+  
+  header nav ul li{
+    float:none;
+    text-align: center;
+    width:100%;
+    margin:0;
+  
+  }
+  
+  header nav ul li a{
+    color:#fff;
+    padding:8px;
+    border-bottom:1px solid #fff;
+    display: block;
+    margin:0;
+  }
+
+  header img#logo {
+    width: 140px;
+  }
+  header img.insta {
+    width: 18px;
+    margin-top: -2px;
+  }
+  header img.fb {
+    width: 27px;
+    margin-top: -7px;
+  }
+  header nav{
+    float:none;
+    position: static;
+    display: inline;
+    margin:0;
+  }
+}

@@ -1,0 +1,184 @@
+/* Text up and below Table */
+h3.text{
+  text-align: center;
+  font-style: italic;
+  background-color: #384248;
+  color:white;
+  font-family: serif;
+  padding:2px;
+}
+h3.upper{
+  margin-bottom: -1px;
+}
+h3.lower{
+  margin-top: -.5px;
+}
+
+/* Table */
+div.main{
+    display: table;
+}
+div.tableRow{
+    display:table-row;
+}
+div.col1{
+     display: table-cell;
+    width:10%;
+    background-color: #fdfdfd;
+    line-height: 2.0em;
+    border:3px solid #f4f4f4;
+    position: relative;
+}
+div.col1 img{
+  position: absolute;
+  top:5px;
+  right:5px;
+}
+div.col1 h2{
+    margin-left:20px;
+    color:#1389d3;
+}
+.topic{
+      font-weight: bold;
+}
+
+/* Footer */
+footer{
+    font-size: 70%;
+    text-align: center;
+    background-color: #619725;
+    height:20px;
+    padding-top:5px;
+    padding-bottom: 36px;
+}
+
+/* For 1024px */
+@media(max-width:1024px){
+  header h1{
+    font-size:165%;
+    margin-top: 13px;
+    margin-left:-85px;
+  }
+  header h3{
+    position: absolute;
+    top:25px;
+    left:430px;
+  }
+}
+
+/* For 768px (Tablets) */
+@media(min-width:768px) and (max-width:1023px){
+  body{
+    font-size: 70%;
+  }
+  header img#logo{
+    width:180px;
+  }
+  header h1{
+    position:absolute;
+    left:285px;
+    top:-5px;
+    font-size:170%;
+  }
+  header h3{
+    position:absolute;
+    top:25px;
+    left:300px;
+  }
+}
+
+
+/* for 425px Mobile */
+@media(min-width:425px) and (max-width:767px){
+  body{
+    font-size: 70%;
+  }
+  header h1,header h3{
+    position: static;
+  }
+  header img#logo{
+    width:160px;
+  }
+  header h1{
+    text-align: center;
+    font-size: 165%;
+    margin-left: 5px;
+  }
+  header h3{
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  div.main,div.tableRow,div.col1{
+    display: block;
+    width:100%;
+  }
+  .col1 li{
+    font-size:120%;
+    line-height: 2.0em;
+  }
+
+}
+
+/* for 375px Mobile */
+@media(min-width:375px) and (max-width:424px){
+  body{
+    font-size: 60%;
+  }
+  div.main,div.tableRow,div.col1{
+    display: block;
+    width:100%;
+  }
+  .col1 li{
+    font-size:13px;
+    line-height: 2.0em;
+  }
+
+}
+
+/* for 320px Mobile */
+@media(min-width:320px) and (max-width:374px){
+  body{
+    font-size: 60%;
+  }
+  header img#logo{
+    width:140px;
+  }
+  div.main,div.tableRow,div.col1{
+    display: block;
+    width:100%;
+  }
+  .col1 li{
+    font-size:12px;
+    line-height: 2.0em;
+  }
+}
+
+
+/* for below 320px */
+@media(max-width:319px){
+  body{
+    font-size: 50%;
+  }
+  header h1,header h3{
+    position: static;
+  }
+  header img#logo{
+    width:140px;
+  }
+  header h1{
+    font-size: 175%;
+    margin-left: 5px;
+  }
+  header h3{
+    text-align: center;
+
+  }
+  div.main,div.tableRow,div.col1{
+    display: block;
+    width:100%;
+  }
+  .col1 li{
+    font-size:11px;
+    line-height: 2.0em;
+  }
+}
